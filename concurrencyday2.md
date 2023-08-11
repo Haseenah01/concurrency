@@ -44,7 +44,7 @@ Now, lets introduce a Process.seep of 10seconds and lets repeat the Process.aliv
 
 this way, 
 	
-    pid = spawn(fn -> Process.sleep(10000) && IO.puts "hi padawan" end
+    pid = spawn(fn -> Process.sleep(10000) && IO.puts "hi padawan" end)
 
 Recheck the pid with Process.alive?(pid)
 Alive or not?
@@ -307,7 +307,7 @@ Implement a basic GenServer that holds and manipulates a state (e.g., a counter)
 Scroll to  <b>'Putting it together'</b> -> Work through this example.
 - Link : https://samuelmullen.com/articles/elixir-processes-send-and-receive
 
-### Steps for install dictionary : 
+### Steps for installing dictionary : 
 
 1. Command to install dictionary / wamerican
 
